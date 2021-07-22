@@ -1,0 +1,58 @@
+.form-wrap{
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message-form{
+  width: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.message-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-message{
+  resize: none;
+  padding-left: 10px;
+}
+
+.tag-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-tag{
+  padding-left: 10px;
+}
+
+.child{
+  border-bottom:#666 1px solid;
+  margin: 10px 0;
+  padding-left: 11px;
+}
+
+.submit-post{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.submit-btn{
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
